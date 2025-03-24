@@ -1,0 +1,79 @@
+.about-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 10%;
+    background: linear-gradient(135deg, #11111131, #222222ba);
+
+    color: white;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    max-width: 1000px;
+    width: 100%;
+    padding-top: 30px;
+}
+
+
+.about-image img {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 20px;
+
+    box-shadow: 0 10px 20px rgba(255, 204, 0, 0.3);
+
+    transition: transform 0.3s ease-in-out;
+}
+
+.about-image img:hover {
+    transform: scale(1.05);
+
+}
+
+
+.about-text {
+    max-width: 600px;
+    transition: color 0.3s ease-in-out, text-shadow 0.3s ease-in-out;
+}
+
+
+.about-text h2 {
+    font-size: 32px;
+    color: #ffcc00;
+
+    margin-bottom: 15px;
+}
+
+
+.about-text p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #ddd;
+    margin-bottom: 15px;
+    transition: color 0.3s ease-in-out, text-shadow 0.3s ease-in-out;
+}
+
+
+.about-text p:hover {
+    color: #ffcc00;
+
+    text-shadow: 0 0 10px rgba(255, 204, 0, 0.8);
+
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .about-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-image img {
+        width: 300px;
+        height: 300px;
+    }
+}

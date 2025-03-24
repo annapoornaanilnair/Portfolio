@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  background: #1f1f1c;
+  color: rgb(241, 232, 216);
+}
