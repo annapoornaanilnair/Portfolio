@@ -16,7 +16,7 @@ const AboutMe = () =>
                 <div className="about-text">
                     <h2>Hey There!!</h2>
                     <p>
-                        I am a third-year software engineering student at Vellore Institute of Technology, Vellore. I am incredibly enthusiastic about emerging technologies and how they are shaping the world around us.
+                        I am a pre-final year software engineering student at Vellore Institute of Technology, Vellore. I am incredibly enthusiastic about emerging technologies and how they are shaping the world around us.
                     </p>
                     <p>
                         For me, learning is not just about acquiring knowledge, but also about exploring new ideas and pushing the boundaries of what is possible. I am always on the lookout for ways to challenge myself and expand my skill set, knowing that the more I learn, the better equipped I will be to tackle complex real-world problems.
